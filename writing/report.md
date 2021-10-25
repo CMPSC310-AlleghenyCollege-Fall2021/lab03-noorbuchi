@@ -6,7 +6,7 @@
 | Timeline  | Tasks |
 | ----------- | ----------- |
 |   10/27    |    Complete data collection  |
-|   10/29    |    Begin Training AI Model  |
+|   10/29    |    Implement Text Generation  |
 |   11/01    |    Assessment of Model  |
 |   11/03    |    Simple demo  |
 |   11/05    |    Model Adjustments  |
