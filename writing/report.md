@@ -2,11 +2,15 @@
 
 ## Completed Timeline (Due by Monday, October 25 11:30am)
 
-TODO:
 
 | Timeline  | Tasks |
 | ----------- | ----------- |
-|   dates    |    task 1   |
+|   10/27    |    Complete data collection  |
+|   10/29    |    Implement Text Generation  |
+|   11/01    |    Assessment of Model  |
+|   11/03    |    Simple demo  |
+|   11/05    |    Model Adjustments  |
+|   11/08    |    Final Changes  |
 
 ## Progress Update (due on October 29 by 11:30am)
 
