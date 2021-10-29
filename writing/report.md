@@ -15,7 +15,8 @@
 ## Progress Update (due on October 29 by 11:30am)
 
 TODO:
-In one paragraph describe the tasks you have accomplished so far.
+
+So far, I created a movie and TV show data set. Additionally, I collected and stored all the plot and synopsis for each movie and show. They are ready for the next steps which is preprocessing. I'm a little behind on the schedule but I'm planning to catch up as soon as I can. 
 
 ## Data
 
