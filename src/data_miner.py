@@ -21,18 +21,23 @@ for movie_name in dataset["movies"]:
     print(f"done getting {movie_name}")
 
 # getting shows
-for show_id in dataset["shows"]:
+for show_name in dataset["shows"]:
+    show_id = ia.search_movie("westworld")[0].movieID
     movie = ia.get_movie(show_id)
     ia.update(movie, "episodes")
     show_episodes = movie.data["episodes"]
-    for season in show_episodes.values():
-        for episode in season.values():
+    for season_num, season in show_episodes.items():
+        for episode_num, episode in season.items():
             episode = ia.get_movie(episode.movieID)
-            pprint(vars(episode))
-            break
-        break
-
-# pprint(vars(episode[1][1]))
+            try:
+                out_data[f"{show_name}_S{season_num}_E{episode_num}"] = episode.data[
+                    "plot"
+                ]
+                print(f"done getting {show_name}_S{season_num}_E{episode_num}")
+            except KeyError as e:
+                print(
+                    f"couldn't get plot for {show_name}_S{season_num}_E{episode_num}. Moving on..."
+                )
 
 # store dataset
 with open("raw_data.json", "w+", encoding="utf8") as outfile:
