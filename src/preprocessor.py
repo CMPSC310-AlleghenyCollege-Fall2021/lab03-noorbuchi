@@ -19,7 +19,7 @@ for movie_name, plots in full_dataset.items():
         plot = re.sub("\(.*?\)", "", plot)
         plot = plot.replace(")", "")
         plot = plot.replace("(", "")
-        processed_data.append(plot)
+        processed_data.append(f"{plot}\n")
 
-with open("processed_data.json", "w+", encoding="utf-8") as output_file:
-    json.dump({"data": processed_data}, output_file)
+with open("processed_data.txt", "w+", encoding="utf-8") as output_file:
+    output_file.writelines(processed_data)
