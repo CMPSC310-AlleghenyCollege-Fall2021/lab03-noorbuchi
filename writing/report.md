@@ -125,12 +125,20 @@ TODO: add image here
 
 ## Challenges and Learning Experiences
 
-TODO:
-Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
+There were many challenges throughout this lab. At the beginning, it was
+gathering the needed data and organizing it in a parsable format. IMDbPY had
+some documentation but it was still challenging to underhand and use. Once that
+challenge was overcome, training the AI model was the next big challenge, at
+first, tensorflow was directly used to complete the task but I encountered many
+errors. To avoid the issues there, aitextgen was then used. Aside from the long
+time to train the model, it worked really well and generated some output.
+
+Some learning experiences in this lab include training a text generation AI
+model and fixing the errors along the way. Additionally, keeping data organized
+and accessible was another learning experience in this lab.
 
 ## Ethical Benefits and Implications
 
-TODO:
 If you are unable to discern specific themes related to future technology use from your synopsis, provide a manually edited version of your synopsis below.
 
 ```
