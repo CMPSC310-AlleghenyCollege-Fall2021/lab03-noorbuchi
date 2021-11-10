@@ -122,6 +122,7 @@ quote. Overall, it shows how combining material and data from the large and
 diverse dataset can produce some interesting output.
 
 TODO: add image here
+![collage](movie%20collage.jpg)
 
 ## Challenges and Learning Experiences
 
