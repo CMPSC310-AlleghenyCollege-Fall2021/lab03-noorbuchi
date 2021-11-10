@@ -149,12 +149,35 @@ Then, hypothesizing on the issues highlighted in your generated (or modified) te
 
 1. What future technology is featured in your synopsis?
 
+The synopsis is very ambiguous and in what it refers to. However, it could be
+refers to separating dreams from reality and a most prized asset, both of which
+could be referring to a futuristic technology.
+
 2. What are the potential social implications and/or ethical issues and/or regulatory challenges with this technology?
+
+It's not really clear, however, a technology that prevents people's ability to
+separate dreams from reality could be very dangerous. It could essentially
+create a false reality for people to live in while ignoring actual reality.
 
 3. What do you think might be a cautionary tale related to this technology?
 
+This somewhat draws similarities to The Matrix, where some people are trapped in
+a false reality and they can chose to escape it or live there forever.
+
 4. What fictional person in the future could best illustrate this caution?
+
+Neo, from the matrix could illustrate this well
 
 5. What is their story?
 
+They must convince people stuck in their dreams to wake up and overthrow the
+tyrannical government responsible for putting them in this false reality. In the
+process, mysteries and drama arise as the main character gets too connected to
+the false reality.
+
 6. Now, consider what benefit can come out of the  technology featured in the story and how can we work towards preventing the negative consequences of the future they envision?
+
+One of the benefits is to create a creative world where anything is possible,
+which allows people to have awesome experiences. To avoid the deterioration of
+this technology and it's possible harmful use, users must be responsible and not
+overuse it to prevent getting trapped in a false reality.
