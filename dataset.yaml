@@ -47,7 +47,7 @@ movies:
   - Elysium
   - Alita Battle Angel
   - Predentination
-# shows:
-#   - Westworld
-#   - Black Mirror
-#   - Mr. Robot
+shows:
+  - Westworld
+  - Black Mirror
+  - Mr. Robot
