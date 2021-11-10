@@ -1,4 +1,4 @@
-# Report by Add Your Name
+# Report by Noor Buchi
 
 ## Completed Timeline (Due by Monday, October 25 11:30am)
 
@@ -14,14 +14,20 @@
 
 ## Progress Update (due on October 29 by 11:30am)
 
-TODO:
-
-So far, I created a movie and TV show data set. Additionally, I collected and stored all the plot and synopsis for each movie and show. They are ready for the next steps which is preprocessing. I'm a little behind on the schedule but I'm planning to catch up as soon as I can. 
+So far, I created a movie and TV show data set. Additionally, I collected and stored all the plot and synopsis for each movie and show. They are ready for the next steps which is preprocessing. I'm a little behind on the schedule but I'm planning to catch up as soon as I can.
 
 ## Data
 
-TODO:
-Describe the data used in your project and how you obtained it. Cite (provide a link to) any sources you have used.
+The data used to train the ai model is the synopsis of hand selected movies and
+shows. A list of the movies and shows can be found in the `dataset.yaml` file.
+The items were selected based on it's genre, if a movie or a show contained
+sci-fi elements such as robots, ai, time travel or other futuristic concept,
+then it was included in the list. Once the list was created, I used
+[IMDbPY](https://imdbpy.github.io/) to make requests and get the synopsis to
+each data item. For each item the database returned multiple synopsis that were
+phrased somewhat differently. All of them were kept for the purposes of training
+the model. Additionally, for tv shows, the data miner iterated through every
+season and episode of the show and retrieved the individual synopsis of each episode.
 
 ## Text Generation
 
