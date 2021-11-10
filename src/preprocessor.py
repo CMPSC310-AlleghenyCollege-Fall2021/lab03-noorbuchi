@@ -9,7 +9,6 @@ processed_data = []
 
 for movie_name, plots in full_dataset.items():
     for plot in plots:
-        # TODO: remove commas periods and other stuff?
         # remove the :: and the data that follows
         if "::" in plot:
             plot = plot[: plot.index("::")]
