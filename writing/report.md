@@ -82,22 +82,46 @@ before it can annihilate all hope of restoring freedom to the galaxy.
 
 ## Text Analysis
 
-TODO:
-Describe the techniques used for an automated text analysis of your automated script synopsis. Cite (provide a link to) any sources you have used. Include a graph or textual output of your analysis. Include your output below.
+Text analysis was done with the help of
+[language-tool-python](https://pypi.org/project/language-tool-python/), which
+detects grammatical and spelling errors in english text. While there are some
+concerns about the accuracy of the tool, it's very easy and simple to use, thus
+it was picked.
+
+It's not clear how consistent this output is for different runs of the same
+model, however, at the time where the analysis was run, this was the output.
+
+![plot](plot.png)
 
 ```
-Output Here
+Error frequency: 28.78592764686359 characters per error
 ```
+
 
 ## Experimental Analysis
 
-TODO:
-Describe the experiments you conducted to evaluate text generation and text analysis.
+To analyze the data, the following steps were taken:
+
+First, the selected model was deserialized and stored. Then the model was used
+to generate 500 outputs. Due to the way the model's API works, the output is
+directly printed to the console rather than stored in a variable. To fix that
+issue, stdout was read, stored, split, and filtered resulting in a list of
+generated texts from the model.
+
+Once the generation step was completed, a loop iterates through the list of
+inputs and finds the number of errors. Additionally, it stores the number of
+errors and length of input in a list of tuples. Following that, the data is
+graphed in a scatter plot and used to calculate an average by adding up all the
+lengths and dividing it by the sum of errors.
 
 ## Supplemental Production
 
-TODO:
-Describe the supplemental production you have created. Include an image if relevant.
+The supplemental production is a collage of all the movie/show posters and
+promotional material created as a background to some of the generated text as a
+quote. Overall, it shows how combining material and data from the large and
+diverse dataset can produce some interesting output.
+
+TODO: add image here
 
 ## Challenges and Learning Experiences
 
