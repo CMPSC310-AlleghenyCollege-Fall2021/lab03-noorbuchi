@@ -31,11 +31,53 @@ season and episode of the show and retrieved the individual synopsis of each epi
 
 ## Text Generation
 
-TODO:
 Describe the techniques used for an automated generation of your script synopsis. Cite (provide a link to) any sources you have used. Include your generated text (or its snippet) below.
 
+In order to train the AI model that generates the text
+[aitexgen](https://github.com/minimaxir/aitextgen) was used. It makes text
+generation very easy by abstracting many details that can be challenging to
+implement. The training phase took about 3 hours to complete and produced a
+model object where the `.generate()` function can be called on. Two similar
+models were trained for this lab, the first one, stored in
+`model with shows/my_model.pkl` includes fewer movies but also contains the 3
+listed shows in `dataset.yaml`. The second one, however, only contains the
+movies listed in the dataset. This was done after noticing that the data
+collected from the shows sometimes overwhelmed the generated output due to it's
+over representation. To use these models, they can be uploaded to Google Colab
+in addition to `generator.ipynb`. The last section contains code to deserialize
+and use the stored model.
+
+The most accurate and meaningful generated text by the technique I used is
+listed here. It's a mixture of strings generated at different phases with some
+minimal reformatting and small fixes. The text is:
+
 ```
-Text Here
+It starts with world; Dolores has trouble separating her dreams from reality; The Man in Black looks to the past.
+Bernard discusses with Dr. Ford asking why he forced him to kill his beloved
+Theresa. Dolores and Bernard reconnect with their pasts. Delos, Charlotte prambles to protect Delos' most prized asset; Bernard gets closer to the truth.
+An enigmatic figure becomes the centre of Delos' secret project; The Man in
+Black and Lawrence follow the clues.
+```
+
+Other generated text is also listed below. Although it's not
+coherent and contains many mistakes, it's interesting and sometimes funny. Here
+are some honorable mentions:
+
+```
+In a world of the monolith, beneath the surface of the planet in a mission to evolution, Sometime in the earthlings have moved to Saturn's moon Titor.
+==========
+After the Artificial Intelligence, working to create a sentient machine that
+combines the hosting. Sarah Conrings are under suspected. The Man in
+Black seeks help from a conddemn
+==========
+before the numbing in the world.
+PA young, Imperial Foster must discover the new programmer at the first of the planet in the fate of the diplity and Earth has become cosuring everyolonized that yet import
+==========
+when a resistance against the machines, conquertects, Smperor --Kyle coper's son embark on a question - even embles who will stop at him to exploit the fate of space.
+==========
+thoughts working ged by law enforcing robot capable against the Death Star
+before it can annihilate all hope of restoring freedom to the galaxy.
+==========
 ```
 
 ## Text Analysis
